@@ -1,4 +1,4 @@
-package fr.marethyun.ghjuca;
+package fr.marethyun.ghjuca.cardset;
 
 public final class FrenchCard implements Card {
 
