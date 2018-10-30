@@ -22,6 +22,10 @@ public final class FrenchCard implements Card {
         return type;
     }
 
+    public static FrenchCard joker(){
+        return new FrenchCard(Color.NONE, Type.JOKER);
+    }
+
     @Override
     public String toString() {
 
