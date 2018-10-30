@@ -22,9 +22,7 @@ public class Pick extends ArrayList<Card> implements Shuffleable, Queue<Card> {
     }
 
     public final Card pickRandom(){
-        Random random = new Random();
-
-        return this.get(random.nextInt(this.size()));
+        return this.get(new Random().nextInt(this.size()));
     }
 
     // Queue methods
