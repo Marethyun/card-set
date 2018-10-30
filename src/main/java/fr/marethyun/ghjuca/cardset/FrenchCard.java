@@ -91,7 +91,7 @@ public final class FrenchCard implements Card {
 
         @Override
         public String toString() {
-            return Integer.toString(getType());
+            return this.getDescriptor();
         }
     }
 }
