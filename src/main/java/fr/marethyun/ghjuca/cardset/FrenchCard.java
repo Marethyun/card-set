@@ -22,6 +22,16 @@ public final class FrenchCard implements Card {
         return type;
     }
 
+    @Override
+    public String toString() {
+
+        if (this.type == Type.JOKER){
+            return this.getType().toString();
+        }
+
+        return "" + this.color + this.type;
+    }
+
     public enum Color {
         NONE("#"),
         CLUBS("♣"),
